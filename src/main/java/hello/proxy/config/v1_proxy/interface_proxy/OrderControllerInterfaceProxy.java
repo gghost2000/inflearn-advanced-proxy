@@ -25,7 +25,7 @@ public class OrderControllerInterfaceProxy implements OrderControllerV1 {
         }  catch (Exception e) {
             logTrace.exception(status, e);
             throw e;
-        }InterfaceProxyConfig
+        }
     }
 
     @Override
